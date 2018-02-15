@@ -22,21 +22,37 @@
       <source src="ice-images/redgrapes.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <form>
-		  Name:
-		  <input type="text" name="name" id = "name"></label><br>
-		  <label for="dob">DOB:</label>
-		  <input type="date" name="DOB" id = "dob"><br>
+    <h4>Fill out the following form:</h4>
+	<form>
+		Name:
+		<input type="text" name="name" id = "name"><br>
+		<br>
+		<label for="dob">DOB:</label>
+		<input type="date" name="DOB" id = "dob"><br>
+		<br>
 
-		  Please enter your choice of snack:<br>
-		  <input type="radio" name="snack" value="pizza"> Pizza<br>
-  		<input type="radio" name="snack" value="donut"> Donut<br>
-  		<input type="radio" name="snack" value="vegan"> Vegan Stuff<br>
+		<div id="snack">
+			Please enter your choice of snack:<br>
+			<input id="snack1" type="radio" name="snack" value="cookies"> 
+			<label for="snack1">Cookies</label><br>
+	  		<input id="snack2" type="radio" name="snack" value="chips"> 
+	  		<label for="snack2">Chips</label><br>
+	  		<input id="snack3" type="radio" name="snack" value="candy"> 
+	  		<label for="snack3">Candy</label><br>
+  		</div>
+  		<br>
 
-  		Please enter your choice of drink:<br>
-		  <input type="radio" name="snack" value="coffee"> Coffee<br>
-  		<input type="radio" name="snack" value="tea"> Tea<br>
-  		<input type="radio" name="snack" value="water"> Water<br>
+  		<div id="drink">
+	  		Please enter your choice of drink:<br>
+			<input id="drink1" type="radio" name="drink" value="juice">
+			<label for="drink1">Juice</label><br>
+	  		<input id="drink2" type="radio" name="drink" value="soda">
+	  		<label for="drink2">Soda</label><br>
+	  		<input id="drink3" type="radio" name="drink" value="water">
+	  		<label for="drink3">Water</label><br>
+	  	</div>
 	</form>
+	<br>
+	<br>
   </body>
 </html>
