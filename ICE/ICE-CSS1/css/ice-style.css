@@ -23,9 +23,9 @@ nav {
 nav ul li{
 	display: inline-block;
 	padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 28px;
-  padding-right: 28px;
+  	padding-bottom: 12px;
+  	padding-left: 28px;
+  	padding-right: 28px;
 	background-color: black;
 	align-items: center;
 
@@ -52,7 +52,7 @@ aside {
 	padding: 10px, 0, 10px, 0;
 	background: grey;
 	color: black;
-  padding-top:1px;
+  	padding-top:1px;
 }
 #content ul {
 	text-align: center;
