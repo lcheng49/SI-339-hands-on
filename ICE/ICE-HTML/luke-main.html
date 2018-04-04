@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/png" href="ice-images/blockm.jpg"/>
+    <title>Luke Ice</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Ice Page Luke/Lilian/Robert</h1>
+        <a href="https://lilian-s.github.io/ICE-HTML/lilian-main.html">Lilian's Page</a>
+        <a href="https://ralterman.github.io/339/ICE1/robert-main.html">Robert's Page</a>
+      </nav>
+    </header>
+    <p> Hi My name is Luke</p>
+    <p>I love Taco Bell </p>
+    <img src="https://www.tacobell.com/~/media/images/taco-bell/products/default/22850_specialties_chalupasupreme_300x300.jpg?w=300&h=300" alt = "taco bell">
+    <img src="ice-images/sketch.jpg" alt="sketch" style="width:300px;height:400px;">
+    <img src="ice-images/coffee.jpg" alt="coffee" style="width:300px;height:400px;">
+    <p>The photo's show our group's sketch, Taco Bell and Starbucks Coffee</p><br />
+    <p>
+      The main difference in the browers were for the DOB forms. In Chrome, there is a mm/dd/yyyy
+      calendar where you are able to pick the date while in Safari you are it is simply an empty box
+      that you fill in the date with.
+    </p><br />
+    <p>
+      The problem with the form was that clicking on the text associated did not put the field into focus.
+      This is an accessibility issue as the radio button is not very large and can be easily missed. Especially
+      for users with disabilities. This was fixed by allowing the associated text to put the field into focus.
+    </p><br  />
+    <p>
+      No new issues came up once the code was validated.
+    </p>
+    <h4>Fill out the following form:</h4>
+	<form>
+		Name:
+		<input type="text" name="name" id = "name"><br>
+		<br>
+		<label for="dob">DOB:</label>
+		<input type="date" name="DOB" id = "dob"><br>
+		<br>
+
+		<div id="snack">
+			Please enter your choice of snack:<br>
+			<input id="snack1" type="radio" name="snack" value="cookies">
+			<label for="snack1">Cookies</label><br>
+	  		<input id="snack2" type="radio" name="snack" value="chips">
+	  		<label for="snack2">Chips</label><br>
+	  		<input id="snack3" type="radio" name="snack" value="candy">
+	  		<label for="snack3">Candy</label><br>
+  		</div>
+  		<br>
+
+  		<div id="drink">
+	  		Please enter your choice of drink:<br>
+			<input id="drink1" type="radio" name="drink" value="juice">
+			<label for="drink1">Juice</label><br>
+	  		<input id="drink2" type="radio" name="drink" value="soda">
+	  		<label for="drink2">Soda</label><br>
+	  		<input id="drink3" type="radio" name="drink" value="water">
+	  		<label for="drink3">Water</label><br>
+	  	</div>
+	</form>
+  <video width="320" height="240" autoplay>
+    <source src="ice-images/redgrapes.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  </body>
+</html>

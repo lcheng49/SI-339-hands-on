@@ -1,0 +1,68 @@
+
+
+@media only screen and (min-width: 650px) {
+	.top-nav {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.top-nav li {
+		display: inline-block;
+	}
+
+	.yellow {
+		width: 48%;
+    float: left;
+		display: inline-block;
+	}
+
+	.blu-purple {
+		width: 48%;
+    float right;
+		display: inline-block;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.black {
+		width: 48%;
+		float: left;
+		display: inline-block; vertical-align: top;
+	}
+
+	.maroon {
+		width: 48%;
+    float right;
+		display: inline-block;
+	}
+
+	.yellow {
+		width: 23%;
+    float: left;
+		display: inline-block; vertical-align: top;
+	}
+
+	.blu-purple {
+		width: 23%;
+		display: inline-block;
+	}
+
+	.green {
+		width: 48%;
+    float: right;
+		display: inline-block; vertical-align: top;
+	}
+
+	.blue {
+		width: 48%;
+    float left;
+		display: inline-block; vertical-align: top;
+	}
+
+	.red {
+		width: 48%;
+    float: right;
+		display: inline-block; vertical-align: top;
+	}
+}
