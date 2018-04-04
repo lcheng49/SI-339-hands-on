@@ -12,11 +12,10 @@
 	margin: 0 auto;
 }
 
-/* Logo */
-
 .header .header_1 h1{
 	float: left;
-	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+	font: normal 28px;
+	font-family: 'Lobster', cursive;
 	line-height: 40px;
 	margin: 0;
 }
@@ -25,7 +24,7 @@
 	color: #5383d3;
 }
 
-/* The header links */
+
 
 .header .header_1 a {
 	color: #00008B;
@@ -54,7 +53,7 @@
 	padding:6px 10px;
 }
 
-/* Making the header responsive. */
+
 
 @media all and (max-width: 600px) {
 
@@ -85,7 +84,6 @@
 .footer{
 	text-align: center;
 }
-/* For the headers to look good, be sure to reset the margin and padding of the body */
 
 body {
 	margin:0;
