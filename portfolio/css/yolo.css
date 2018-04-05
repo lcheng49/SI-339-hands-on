@@ -32,6 +32,22 @@ body{
 	color: #F05283;
 }
 
+.proj {
+	display: inline-block;
+  width:500px;
+  height:100px;
+}
+
+.proj p{
+	overflow-wrap: break-word;
+}
+
+.proj img{
+	height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 500px;
+}
 
 @media (max-height:800px){
 	.main { padding-top:40px; }
