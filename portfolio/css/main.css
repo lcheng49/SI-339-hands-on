@@ -4,7 +4,7 @@
 	box-sizing:border-box;
 	box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
 	height: 80px;
-	background-color: #fff;
+	background-color: #c0d6e4;
 }
 .current {
 	border-bottom: 2px solid red;
@@ -90,7 +90,23 @@
 }
 
 .footer{
+	position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
 	text-align: center;
+	font-size: 13px;
+	padding: 20px 0;
+	height: 85px;
+	background-color: #c0d6e4;
+}
+
+.footer img{
+	height: auto;
+  width: auto;
+  max-width: 30px;
+  max-height: 30px;
 }
 
 body {
