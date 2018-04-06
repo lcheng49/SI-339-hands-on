@@ -13,7 +13,7 @@ body{
 	background-position: left top, right top;
 }
 
-#background .main{
+.main{
 	text-align: center;
 	padding-top: 25px;
 	margin-bottom:20px;
