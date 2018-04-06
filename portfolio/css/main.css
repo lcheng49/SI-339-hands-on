@@ -109,6 +109,11 @@
   max-height: 30px;
 }
 
+.main #snow{
+	background-color: black;
+	color: white;
+}
+
 body {
 	margin:0;
 	padding:0;
