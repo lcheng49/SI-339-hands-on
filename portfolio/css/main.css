@@ -5,7 +5,9 @@
 	height: 80px;
 	background-color: #fff;
 }
-
+.current {
+	border-bottom: 2px solid red;
+}
 .header .header_1 {
 	max-width: 1200px;
 	text-align: center;

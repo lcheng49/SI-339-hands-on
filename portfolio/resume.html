@@ -29,6 +29,18 @@
      <a href="about.html">About</a>
      <a href="resume.html">Resume</a>
    </nav>
+   <script type="text/javascript">
+   var url = "https://lcheng49.github.io/portfolio/resume.html".split("/"); 
+   var navLinks = document.getElementsByTagName("nav")[0].getElementsByTagName("a");
+   var i=0;
+   var currentPage = url[url.length - 1];
+   for(i;i<navLinks.length;i++){
+     var lb = navLinks[i].href.split("/");
+     if(lb[lb.length-1] == currentPage) {
+      navLinks[i].className = "current";
+     }
+     }
+   </script>
  </div>
 
 </header>
