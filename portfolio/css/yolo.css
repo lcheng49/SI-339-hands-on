@@ -16,7 +16,9 @@ body{
 	padding-top: 25px;
 	margin-bottom:20px;
 }
-
+.main .poem{
+	color: red;
+}
 .main img{
 	margin: 20px auto;
 }
