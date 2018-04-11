@@ -1,0 +1,80 @@
+
+html, body, h1, form, fieldset, legend, ol, li {
+	margin: 0;
+	padding: 0;
+}
+
+h4 {
+	font-size: 35px;
+	margin-top: 15px ;
+	margin-bottom: 15px ;
+	text-align: center;
+	font-family: Arial;
+  font-weight: bold;
+}
+
+body {
+	background: #FFD700;
+	color: #111111;
+	font-family: "Times New Roman";
+	padding: 5%;
+	font-size: 20px;
+}
+
+fieldset{
+	background-color:#9ACD32;
+	padding:2%;
+  margin: 20px;
+}
+
+form-group{
+	margin: 10px;
+}
+
+legend {
+	font-size: 24px;
+	margin-top: 20px ;
+	margin-bottom: 20px ;
+	text-align: left;
+	border: none;
+	font-weight: bold;
+}
+
+label{
+	display: inline-block;
+	padding: .25%;
+	font-weight: normal;
+}
+
+input{
+	display: inline-block;
+	padding: .25%;
+}
+
+input textarea select{
+	padding: .25%;
+}
+
+#addDegree, #addWork {
+	display: inline-block;
+	padding: 1% 5%;
+	margin-top: 10px;
+	text-align: center;
+	color: red;
+	background: black;
+	border-radius: 5%;
+
+}
+
+input[type=submit]  {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1% 5%;
+	margin-top: 10px;
+	vertical-align: middle;
+	text-align: center;
+	color: red;
+	border-radius: 5%;
+	background: black;
+}
